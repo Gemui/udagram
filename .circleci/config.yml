@@ -11,9 +11,8 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - checkout
-      - node/install:
-          node-version: '14.19'
-
+      - node/install
+      - aws-cli/setup
       # install dependencies in both apps
       - run:
           name: install front dependencies
