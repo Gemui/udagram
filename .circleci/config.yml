@@ -11,7 +11,7 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - checkout
-      - node/install:
+      - node/install
 
       # install dependencies in both apps
       - run:
@@ -22,7 +22,6 @@ jobs:
           name: install back dependencies
           command: |
             npm run back:install
-
       - run:
           name: build back app
           command: |
