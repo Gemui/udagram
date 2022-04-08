@@ -11,7 +11,8 @@ jobs:
       - image: "cimg/base:stable"
     steps:
       - checkout
-      - node/install
+      - node/install:
+          node-version: '14.19'
 
       # install dependencies in both apps
       - run:
