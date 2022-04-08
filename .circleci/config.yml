@@ -30,3 +30,8 @@ jobs:
           name: build front app
           command: |
             npm run front:build
+
+      - run:
+          name: deploy front app
+          command: |
+            npm run front:deploy
