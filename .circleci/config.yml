@@ -14,6 +14,7 @@ jobs:
       - checkout
       - node/install
       - aws-cli/setup
+      - eb/setup
       # install dependencies in both apps
       - run:
           name: install front dependencies
