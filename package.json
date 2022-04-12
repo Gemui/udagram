@@ -6,7 +6,7 @@
         "back:install": "cd udagram-api && npm install",    
         "back:build": "cd udagram-api && npm run build",
         "front:deploy": "cd udagram-frontend && npm run deploy",
-        "back:deploy": "cd udagram-api && eb deploy",
+        "back:deploy": "cd udagram-api && npm run deploy",
         "front:test" : "cd udagram-frontend && npm run test",
         "back:test" : "cd udagram-api && npm run test"
     },

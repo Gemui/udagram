@@ -5,10 +5,6 @@ This application is provided to you as an alternative starter project if you do 
 [![<Gemui>](https://circleci.com/gh/Gemui/udagram.svg?style=svg)](<https://app.circleci.com/pipelines/github/Gemui/udagram/23/workflows/071e7bce-f987-48d9-af50-9c81f220bb73>)
 
 
-# Example for specific branch:
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/main.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/?branch=main)
-
-
 ## Getting Started
 
 1. Clone this repo locally into the location of your choice.
