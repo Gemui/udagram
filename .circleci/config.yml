@@ -42,3 +42,13 @@ jobs:
           name: deploy Back app
           command: |
             npm run back:deploy
+
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: main
